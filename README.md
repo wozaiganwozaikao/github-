@@ -12,45 +12,46 @@ Choose a template（选择模板）：GitHub提供了许多项目模板，可以
 
 2.克隆Clone仓库到本地
     
-  指令:git clone https://https://github.com/username/repository.git
+    :git clone https://https://github.com/username/repository.git
   
 如果设置了SSH密钥 使用ssh来克隆仓库，可以使用
 
-  指令：git@github.com:username/repository.git
-
+    ：git@github.com:username/repository.git
 
 3.进入仓库目录开始工作
 
-  cd repository
+      cd repository
 
 4.提交和推送代码
 
   4.1创建README文件
   
-       指令:echo "# ros2_rookie" >> README.md # Windows (CMD)
-       指令:touch .README.md  # Linux/Mac
+      :echo "# ros2_rookie" >> README.md # Windows (CMD)
+      :touch .README.md  # Linux/Mac
      
   4.2初始化git
   
-       指令:git init
+     :git init
      
   4.3添加README文件
   
-       指令:git add README.md
+     :git add README.md
      
   4.4创建.gitignore文件
   
-     指令:touch .gitignore  # Linux/Mac
+     :touch .gitignore  # Linux/Mac
      
   4.5编辑.gitignore文件
   
-     4.5.1 C++项目
+      C++
+      
      # Build files
        *.o
        *.exe
        build/
        
-     4.5.2 Python项目
+     Python
+     
      # Byte-compiled / optimized / DLL files
       __pycache__/
       *.py[cod]
@@ -62,7 +63,8 @@ Choose a template（选择模板）：GitHub提供了许多项目模板，可以
       # Logs
       *.log
       
-      4.5.3 ROS2项目
+      ROS2 
+      
       # -------------------------------
       # ROS 2 核心构建和开发文件
       # -------------------------------
