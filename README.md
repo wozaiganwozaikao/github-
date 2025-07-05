@@ -4,9 +4,13 @@ github上传项目步骤
 1.创建新仓库
 
 Repository name（仓库名称）：为你的仓库起一个简洁明了的名称，最好能够反映项目的性质或用途。
+
 Initialize this repository with a README（使用README初始化仓库）：这是一个很好的习惯，因为README文件通常会包含关于项目的基本信息、如何安装和使用、贡献指南等内容。
+
 Add .gitignore（添加.gitignore文件）：这是一个可选的步骤，但非常有用。.gitignore文件用于指定在提交代码时应该忽略哪些文件或目录，例如编译生成的文件、日志文件等。
+
 Add a license（添加许可证）：为你的项目选择一个合适的许可证，这有助于明确项目的使用、修改和分发规则。
+
 Choose a template（选择模板）：GitHub提供了许多项目模板，可以帮助你快速开始一个新项目。
 
 
