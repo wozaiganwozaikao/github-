@@ -2,6 +2,7 @@
 github上传项目步骤
 
 1.创建新仓库
+
 Repository name（仓库名称）：为你的仓库起一个简洁明了的名称，最好能够反映项目的性质或用途。
 Initialize this repository with a README（使用README初始化仓库）：这是一个很好的习惯，因为README文件通常会包含关于项目的基本信息、如何安装和使用、贡献指南等内容。
 Add .gitignore（添加.gitignore文件）：这是一个可选的步骤，但非常有用。.gitignore文件用于指定在提交代码时应该忽略哪些文件或目录，例如编译生成的文件、日志文件等。
@@ -10,26 +11,35 @@ Choose a template（选择模板）：GitHub提供了许多项目模板，可以
 
 
 2.克隆Clone仓库到本地
-指令:git clone https://https://github.com/username/repository.git
-如果设置了SSH密钥 使用ssh来克隆仓库，可以使用指令：git@github.com:username/repository.git
+    
+  指令:git clone https://https://github.com/username/repository.git
+  
+如果设置了SSH密钥 使用ssh来克隆仓库，可以使用
+
+  指令：git@github.com:username/repository.git
 
 
 3.进入仓库目录开始工作
-cd repository
+
+  cd repository
 
 4.提交和推送代码
 
   4.1创建README文件
-     指令:echo "# ros2_rookie" >> README.md # Windows (CMD)
-     指令:touch .README.md  # Linux/Mac
+  
+       指令:echo "# ros2_rookie" >> README.md # Windows (CMD)
+       指令:touch .README.md  # Linux/Mac
      
   4.2初始化git
-     指令:git init
+  
+       指令:git init
      
   4.3添加README文件
-     指令:git add README.md
+  
+       指令:git add README.md
      
   4.4创建.gitignore文件
+  
      指令:touch .gitignore  # Linux/Mac
      
   4.5编辑.gitignore文件
